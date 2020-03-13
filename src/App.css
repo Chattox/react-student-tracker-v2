@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -13,6 +13,14 @@ h1 {
   color: #fff;
 }
 
+main {
+  background-color: palevioletred;
+}
+
+nav {
+  background-color: palevioletred;
+}
+
 nav > a {
   text-decoration: none;
   display: inline-block;
@@ -23,6 +31,14 @@ nav > a {
 
 nav > a:hover {
   color: pink;
+}
+
+.nav-button {
+  background-color: white;
+}
+
+.students {
+  background-color: white;
 }
 
 .list-container {
@@ -41,6 +57,7 @@ nav > a:hover {
   padding: 5px;
   border: solid 1px black;
   margin-bottom: 30px;
+  transition: all 0.3s ease;
 }
 
 .studentlist-item div,

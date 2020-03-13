@@ -70,7 +70,7 @@ class Students extends Component {
 
   render() {
     return (
-      <section>
+      <section class="students">
         <h2>Students</h2>
         <h3>
           <i>Current students: {this.state.studentData.length}</i>

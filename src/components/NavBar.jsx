@@ -1,11 +1,15 @@
-import React from "react";
-import { Link } from "@reach/router";
+import React from 'react';
+import { Link } from '@reach/router';
 
 const NavBar = props => {
   return (
     <nav>
-      <Link to="/">Students</Link>
-      <Link to="/graduates">Graduates</Link>
+      <Link className="nav-button" to="/">
+        Students
+      </Link>
+      <Link className="nav-button" to="/graduates">
+        Graduates
+      </Link>
     </nav>
   );
 };

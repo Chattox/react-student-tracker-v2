@@ -13,7 +13,7 @@ class SortStudent extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="sort-form">
         <form>
           <label>
             Sort by:
