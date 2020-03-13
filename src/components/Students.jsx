@@ -72,6 +72,9 @@ class Students extends Component {
     return (
       <section>
         <h2>Students</h2>
+        <h3>
+          <i>Current students: {this.state.studentData.length}</i>
+        </h3>
         <AddStudent postStudent={this.postStudent} />
         <SortStudent
           toggleOrderBy={this.toggleOrderBy}
